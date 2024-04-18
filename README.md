@@ -2,7 +2,7 @@
 
 Code for "Sliced Maximal Information Coefficient: A Training-Free Approach for Image Quality Assessment Enhancement"
 
-![framework]()
+![framework](smic-pytorch/framework.png)
 
 # Environment
 
@@ -16,11 +16,13 @@ pip install -r requirements.txt
 
 - Enhanced FR-IQA models
 
-The SMIC-based weighting scheme is integrated into five FR-IQA methods, including classical metrics (PSNR and SSIM) and learning-based methods (LPIPS, DISTS, DeepWSD).
+  - The SMIC-based weighting scheme is integrated into five FR-IQA methods, including classical metrics (PSNR and SSIM) and learning-based methods (LPIPS, DISTS, DeepWSD).
 
-The model corresponding to the enhanced version can be obtained in the [smic-pytorch]() folder.
+  - The model corresponding to the enhanced version can be obtained in the [smic-pytorch](https://github.com/KANGX99/SMIC/tree/main/smic-pytorch) folder.
 
 - Generate attention maps by SMIC
-```
-python SMIC_Map.py
-```
+
+  `python SMIC_Map.py`
+
+  ![attenton](smic-pytorch\attenton.png)
+
