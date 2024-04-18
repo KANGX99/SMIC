@@ -24,5 +24,5 @@ pip install -r requirements.txt
 
   `python SMIC_Map.py`
 
-  ![attenton](smic-pytorch\attenton.png)
+  ![attenton](smic-pytorch/attenton.png)
 
